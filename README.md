@@ -12,11 +12,9 @@
     * Installation:
       * Linux:  <br/>
         `wget http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.tgz` <br/>
-        `mkdir osmosis` <br/>
-        `mv osmosis-latest.tgz osmosis` <br/>
-        `cd osmosis` <br/>
-        `tar xvfz osmosis-latest.tgz` <br/>
+        `tar xvfz osmosis-latest.tgz -C osmosis` <br/>
         `rm osmosis-latest.tgz` <br/>
+        `cd osmosis` <br/>
         `chmod a+x bin/osmosis` <br/>
         `bin/osmosis` <br/>
       * [Windows] (http://wiki.openstreetmap.org/wiki/Osmosis/Quick_Install_(Windows))
